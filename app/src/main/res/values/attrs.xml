@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="labeltext">
+        <attr name="textv" format="string"/>
+        <attr name="sizev" format="dimension"/>
+        <attr name="colorv" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="circleimageview">
+        <attr name="imagetype" format="integer"/>
+    </declare-styleable>
+</resources>

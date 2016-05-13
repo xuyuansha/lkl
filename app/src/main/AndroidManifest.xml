@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qf.day28_custemview1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Custem1Activity"/>
+        <activity android:name=".Custem2Activity"/>
+        <activity android:name=".Custem3Activity"/>
+        <activity android:name=".Custem4Activity"/>
+        <activity android:name=".Custem5Activity"/>
+        <activity android:name=".Custem6Activity"/>
+        <activity android:name=".Custem7Activity"/>
+        <activity android:name=".Custem8Activity"/>
+        <activity android:name=".Custem9Activity"/>
+    </application>
+
+</manifest>

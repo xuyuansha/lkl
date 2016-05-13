@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tab控件的布局 -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hsv_id"
+    >
+    
+    <!-- 最外层的LinearLayout 纵向 -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <!-- Tab项布局 横向 -->
+        <LinearLayout
+            android:id="@+id/ll_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="horizontal"/>
+        
+        <View
+            android:id="@+id/view_nav"
+	        android:layout_width="0dp"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:background="#f00"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f00"/>
+        
+    </LinearLayout>
+
+</HorizontalScrollView>

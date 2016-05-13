@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Day28_custemView1</string>
+    
+    <string-array name="listview">
+        <item>A</item>
+        <item>安阳</item>
+        <item>鞍山</item>
+        <item>安庆</item>
+        <item>B</item>
+        <item>北京</item>
+        <item>北海</item>
+        <item>保定</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qf.widget8.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        style="@style/text_flow"
+        android:text="夏洛特烦恼"/>
+
+    <TextView
+        style="@style/text_flow"
+        android:text="周润发财了周润发财了周润发财了"/>
+
+    <TextView
+        style="@style/text_flow"
+        android:text="邓紫棋牌室"/>
+
+    <TextView
+        style="@style/text_flow"
+        android:text="金正恩仇录金正恩仇录金正恩仇录金正恩仇录"/>
+
+    <TextView
+        style="@style/text_flow"
+        android:text="陈冠西餐厅"/>
+
+    <TextView
+        style="@style/text_flow"
+        android:text="井柏然并卵"/>
+
+</com.qf.widget8.FlowLayout>
